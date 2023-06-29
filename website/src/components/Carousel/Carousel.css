@@ -1,0 +1,14 @@
+
+/*****CAROUSEL CSS*/
+
+.carousel-container {
+    margin-top: 90px;
+}
+
+@media (min-width: 992px) {
+    .custom-carousel .carousel-item {
+      height: 50vh;
+    }
+  }
+  
+  

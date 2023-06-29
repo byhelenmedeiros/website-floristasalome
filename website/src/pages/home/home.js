@@ -1,6 +1,6 @@
 import React from 'react';
 import CustomNavbar from '../../components/Navbar/Navbar';
-import Carousel from '../../components/Carousel/Carousel';
+import CustomCarousel from '../../components/Carousel/Carousel';
 import './Home.css';
 
 const Home = () => {
@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <CustomNavbar />
       {/* Conteúdo da página Home */}
-      <Carousel />
+      <CustomCarousel />
     </>
   );
 };
