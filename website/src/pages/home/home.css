@@ -1,15 +1,46 @@
+/*CSS DA HOME*/
+
+/*************NAVBAR**********/
+@media (min-width: 992px) {
+    .navbar {
+        height: 90px;
+    }
+}   
+
+/******PESQUISA*******/
+
+.search-form-container {
+    display: flex;
+    align-items: center;
+}
+
 .search-form {
     display: flex;
     align-items: center;
-  }
-  
-  .search-form.active {
+    transition: width 0.3s ease-in-out;
+    width: 0;
+    overflow: hidden;
+}
+
+.search-form.active {
     width: 200px;
     transition: width 0.3s ease-in-out;
-  }
-  
-  .search-icon {
-    margin-right: 10px;
+}
+
+.search-icon {
+    margin-left: 10px;
     cursor: pointer;
-  }
-  
+    color: #fff;
+}
+
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: space-between;
+}
+
+/* barra de pesquisa em mobile*/
+@media (max-width: 576px) {
+    .search-form.active {
+        width: 100%;
+    }
+}

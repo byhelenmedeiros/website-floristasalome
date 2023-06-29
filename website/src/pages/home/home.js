@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Navbar, Container, Nav, Form, FormControl } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import Carousel from './Carousel';
 import './Home.css';
 
 const Home = () => {
@@ -47,22 +48,20 @@ const Home = () => {
               <Nav.Link as={Link} to="/products">Produtos</Nav.Link>
               <Nav.Link as={Link} to="/contact">Entre em contato</Nav.Link>
             </Nav>
-            <Form inline className="d-flex align-items-center">
-              {showSearch && (
-                <FormControl
-                  type="text"
-                  placeholder="Pesquisar"
-                  className="mr-2"
-                  value={searchTerm}
-                  onChange={handleChange}
-                  onKeyPress={handleKeyPress}
-                />
-              )}
-              <FontAwesomeIcon
-                icon={faSearch}
-                className={`search-icon ${showSearch ? 'active' : ''}`}
-                onClick={handleSearchClick}
-              />
+            <Form inline className="ml-auto">
+              <div className="search-form-container">
+                <div className={`search-form ${showSearch ? 'active' : ''}`}>
+                  <FormControl
+                    type="text"
+                    placeholder="Pesquisar"
+                    className="mr-sm-2"
+                    value={searchTerm}
+                    onChange={handleChange}
+                    onKeyPress={handleKeyPress}
+                  />
+                </div>
+                <FontAwesomeIcon icon={faSearch} className={`search-icon ${showSearch ? 'icon-visible' : ''}`} onClick={handleSearchClick} />
+              </div>
             </Form>
           </Navbar.Collapse>
         </Container>
