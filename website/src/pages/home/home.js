@@ -1,12 +1,12 @@
 import React from 'react';
-import NavbarComponent from '../components/Navbar/Navbar';
-import Carousel from '../components/Carousel';
+import CustomNavbar from '../../components/Navbar/Navbar';
+import Carousel from '../../components/Carousel/Carousel';
 import './Home.css';
 
 const Home = () => {
   return (
     <>
-      <NavbarComponent />
+      <CustomNavbar />
       {/* Conteúdo da página Home */}
       <Carousel />
     </>

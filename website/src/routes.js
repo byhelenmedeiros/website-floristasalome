@@ -10,11 +10,11 @@ const AppRoutes = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/Products" component={Products} />
-        <Route path="/Services" component={Services} />
-        <Route path="/Contact" component={Contact} />
-        <Route path="/About" component={About} />
+      <Route exact path="/Home" component={Home} />
+        <Route path="/products" component={Products} />
+        <Route path="/services" component={Services} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/about" component={About} />
       </Switch>
     </Router>
   );
