@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { useState } from 'react';
+import { Navbar, Container, Nav, Form, FormControl, Button } from 'react-bootstrap';
+import { Search } from 'react-bootstrap-icons';
+
 //import logo from './logo.png'; 
 
 const Home = () => {
@@ -25,9 +29,10 @@ const Home = () => {
             <Nav className="ml-auto">
               <Nav.Link as={Link} to="/">Home</Nav.Link>
               <Nav.Link as={Link} to="/about">Sobre nós</Nav.Link>
-              <Nav.Link as={Link} to="/services">Nossos serviços</Nav.Link>
+              <Nav.Link as={Link} to="/services">serviços</Nav.Link>
               <Nav.Link as={Link} to="/Products">Produtos</Nav.Link>
               <Nav.Link as={Link} to="/contact">Entre em contacto</Nav.Link>
+
             </Nav>
           </Navbar.Collapse>
         </Container>
