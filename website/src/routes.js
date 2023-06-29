@@ -6,7 +6,7 @@ import Services from './pages/Services/Services';
 import Contact from './pages/Contact/Contact';
 import About from './pages/About/About';
 
-const Routes = () => {
+const AppRoutes = () => {
   return (
     <Router>
       <Switch>
@@ -20,4 +20,4 @@ const Routes = () => {
   );
 };
 
-export default Routes;
+export default AppRoutes;
