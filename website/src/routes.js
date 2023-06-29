@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './pages/home/Home';
-import Products from './pages/products/Products';
-import Services from './pages/services/Services';
-import Contact from './pages/contact/Contact';
-import About from './pages/about/About';
+import Home from './pages/Home/Home';
+import Products from './pages/Products/Products';
+import Services from './pages/Services/Services';
+import Contact from './pages/Contact/Contact';
+import About from './pages/About/About';
 
 const Routes = () => {
   return (
@@ -15,7 +15,6 @@ const Routes = () => {
         <Route path="/services" component={Services} />
         <Route path="/contact" component={Contact} />
         <Route path="/about" component={About} />
- 
       </Switch>
     </Router>
   );
