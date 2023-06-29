@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Routes from './routes';
+import Routes from './Routes';
+
 
 function App() {
   return (
     <div>
-      <h1>Floricultura XYZ</h1>
+      <h1>Florista Salome</h1>
       <Routes />
     </div>
   );
