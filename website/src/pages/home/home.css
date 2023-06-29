@@ -1,0 +1,15 @@
+.search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-form.active {
+    width: 200px;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .search-icon {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
