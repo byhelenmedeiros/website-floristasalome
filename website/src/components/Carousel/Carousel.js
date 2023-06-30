@@ -16,7 +16,7 @@ function CustomCarousel() {
             alt="Flores pra si"
           />
           <Carousel.Caption>
-             <h3 className="titulo-lateral">Presentes floridos para todos!</h3>
+             <h3 className="titulo__carousel">Presentes floridos para todos!</h3>
              <p className="subtitulo">Surpreenda quem ama com delicadeza e charme</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -27,7 +27,7 @@ function CustomCarousel() {
             alt="Second slide"
           />
           <Carousel.Caption>
-             <h3 className="titulo-lateral">Arranjos com desconto de até 20%</h3>
+             <h3 className="titulo__carousel">Arranjos com desconto de até 20%</h3>
              <p className="subtitulo">Cada arranjo é uma verdadeira obra de arte floral, feita com dedicação e carinho para tornar os seus momentos ainda mais memoráveis.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -38,7 +38,7 @@ function CustomCarousel() {
             alt="Third slide"
           />
           <Carousel.Caption>
-             <h3 className="titulo-lateral">Encontre as flores perfeitas para todas as ocasiões.</h3>
+             <h3 className="titulo__carousel">Encontre as flores perfeitas para todas as ocasiões.</h3>
              <p className="subtitulo">Seja para presentear alguém especial, decorar um evento ou trazer vida aos seus espaços, temos opções encantadoras que vão surpreender e encantar.</p>
           </Carousel.Caption>
         </Carousel.Item>
