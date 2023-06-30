@@ -1,15 +1,18 @@
 import React from 'react';
 import './Carousel.css';
 import { Link } from 'react-router-dom';
-import { Button, Container, Carousel } from 'react-bootstrap';
+import { Button, Carousel } from 'react-bootstrap';
 import image1 from '../../images/image1.png';
 import image2 from '../../images/image2.png';
 import image3 from '../../images/image3.png';
 
 function CustomCarousel() {
+  
+
   return (
     <div className="custom-carousel">
       <Carousel>
+        {/* Slides do carrossel */}
         <Carousel.Item>
           <img
             className="d-block w-100"
@@ -18,12 +21,12 @@ function CustomCarousel() {
           />
           <Carousel.Caption>
             <h3 className="titulo__carousel">Arranjos com desconto de até 20%</h3>
-            <p className="subtitulo"> Cada arranjo é uma verdadeira obra de arte floral, feita com dedicação e carinho para tornar os seus momentos ainda mais memoráveis. Surpreenda quem ama com delicadeza e charme! </p>
+            <p className="subtitulo">Cada arranjo é uma verdadeira obra de arte floral, feita com dedicação e carinho para tornar os seus momentos ainda mais memoráveis. Surpreenda quem ama com delicadeza e charme!</p>
             <Link to="/products">
               <Button variant="secondary" className="text-left">
-               Nossos produtos
+                Nossos produtos
               </Button>
-          </Link>
+            </Link>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -34,7 +37,7 @@ function CustomCarousel() {
           />
           <Carousel.Caption>
             <h3 className="titulo__carousel titulo__carousel_2">Presentes floridos para todas as ocasiões!</h3>
-            <p className="subtitulo subtitulo_2">Surpreenda quem ama com delicadeza e charme, Cada arranjo é uma verdadeira obra de arte floral, feita com dedicação e carinho para tornar os seus momentos ainda mais memoráveis.</p>
+            <p className="subtitulo subtitulo_2">Surpreenda quem ama com delicadeza e charme. Cada arranjo é uma verdadeira obra de arte floral, feita com dedicação e carinho para tornar os seus momentos ainda mais memoráveis.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>

@@ -1,14 +1,16 @@
 import React from 'react';
-import CustomNavbar from '../../components/Navbar/Navbar';
 import CustomCarousel from '../../components/Carousel/Carousel';
-import './Home.css';
+import { useLocation } from 'react-router-dom';
 
 const Home = () => {
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
+
   return (
     <>
-      <CustomNavbar />
+    
       {/* Conteúdo da página Home */}
-      <CustomCarousel />
+      {isHomePage && <CustomCarousel showCarrossel={true} />}
     </>
   );
 };
