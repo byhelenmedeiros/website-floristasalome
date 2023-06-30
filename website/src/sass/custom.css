@@ -12040,4 +12040,9 @@ textarea.form-control-lg {
 .btn-secondary {
   padding: 10px 20px;
   border-radius: 30px;
+}
+
+.titulo__carousel {
+  font-family: "Nunito";
+  font-weight: bold;
 }/*# sourceMappingURL=custom.css.map */

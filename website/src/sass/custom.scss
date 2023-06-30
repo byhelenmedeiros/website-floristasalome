@@ -1,5 +1,6 @@
 $primary: #31603F;
 $secondary: #a43f64;
+$font-family: 'Nunito', sans-serif;
 
 
 
@@ -12,7 +13,14 @@ $secondary: #a43f64;
 
 }
 
+
 .btn-secondary {
     padding: 10px 20px;
     border-radius: 30px;
 }
+
+.titulo__carousel {
+    font-family: 'Nunito';
+    font-weight: bold;
+}
+
