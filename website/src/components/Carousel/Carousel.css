@@ -1,14 +1,12 @@
 
-/*****CAROUSEL CSS*/
-
-.carousel-container {
-    margin-top: 90px;
-}
-
-@media (min-width: 992px) {
-    .custom-carousel .carousel-item {
-      height: 50vh;
-    }
+  
+  .custom-carousel .carousel-item {
+    height: 100vh; /*altura para dispositivos menores */
   }
   
+  @media (min-width: 992px) {
+    .custom-carousel .carousel-item {
+      height: 75vh; /* altura para dispositivos de largura maior */
+    }
+  }
   
