@@ -1,9 +1,9 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import './CustomCarousel.css';
-import image1 from './images/image1.png';
-import image2 from './images/image2.png';
-import image3 from './images/image3.png';
+import './Carousel.css';
+import image1 from '../../images/image1.png';
+import image2 from '../../images/image2.png';
+import image3 from '../../images/image3.png';
 
 function CustomCarousel() {
   return (
@@ -16,8 +16,8 @@ function CustomCarousel() {
             alt="Flores pra si"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+             <h3 className="titulo-lateral">Presentes floridos para todos!</h3>
+             <p className="subtitulo">Surpreenda quem ama com delicadeza e charme</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -27,8 +27,8 @@ function CustomCarousel() {
             alt="Second slide"
           />
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+             <h3 className="titulo-lateral">Arranjos com desconto de até 20%</h3>
+             <p className="subtitulo">Cada arranjo é uma verdadeira obra de arte floral, feita com dedicação e carinho para tornar os seus momentos ainda mais memoráveis.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -38,8 +38,8 @@ function CustomCarousel() {
             alt="Third slide"
           />
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+             <h3 className="titulo-lateral">Encontre as flores perfeitas para todas as ocasiões.</h3>
+             <p className="subtitulo">Seja para presentear alguém especial, decorar um evento ou trazer vida aos seus espaços, temos opções encantadoras que vão surpreender e encantar.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
