@@ -3,14 +3,11 @@
   /* altura para dispositivos menores */
 }
 
-h3:not(:first-child):nth-last-child(-n+2) {
-  color: red; /* Cor dos dois últimos títulos */
-}
 
 
 .carousel-caption {
   position: absolute;
-  top: 45%;
+  top: 42%;
   left: 0;
   right: 0;
   transform: translateY(-50%);
@@ -47,6 +44,7 @@ h3:not(:first-child):nth-last-child(-n+2) {
     width: 55%;
     text-align: left;
     font-size: 1.2em;
+    margin: 30px 0;
   }
 
   .subtitulo_2 {
@@ -56,4 +54,8 @@ h3:not(:first-child):nth-last-child(-n+2) {
   .carousel-caption {
     text-align: left;
   }
+}
+
+.text-left{
+  float: left;
 }
