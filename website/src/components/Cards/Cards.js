@@ -1,21 +1,33 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import flowerImage from 'caminho/para/imagem.png';
+import flower1 from '../../images/flower1.png';
+import flower2 from '../../images/flower2.png';
+import flower3 from '../../images/flower3.png';
+import './Cards.css';
 
-const FlowerCard = () => {
+const FlowerCards = () => {
   return (
-    <Card style={{ borderRadius: '20px' }}>
-      <div className="d-flex">
-        <Card.Img variant="top" src={flowerImage} style={{ width: '150px', height: '150px', objectFit: 'cover' }} />
+    <div className="d-flex justify-content-center">
+      <Card className="flower-card">
+        <Card.Img variant="top" src={flower1} />
         <Card.Body>
-          <Card.Title>Título do Card</Card.Title>
-          <Card.Text>
-            Descrição do card. Aqui você pode adicionar mais informações sobre as flores.
-          </Card.Text>
+          <Card.Title>Título do Card 1</Card.Title>
         </Card.Body>
-      </div>
-    </Card>
+      </Card>
+      <Card className="flower-card">
+        <Card.Img variant="top" src={flower2} />
+        <Card.Body>
+          <Card.Title>Título do Card 2</Card.Title>
+        </Card.Body>
+      </Card>
+      <Card className="flower-card">
+        <Card.Img variant="top" src={flower3} />
+        <Card.Body>
+          <Card.Title>Título do Card 3</Card.Title>
+        </Card.Body>
+      </Card>
+    </div>
   );
 };
 
-export default FlowerCard;
+export default FlowerCards;
