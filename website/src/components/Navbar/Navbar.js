@@ -40,13 +40,12 @@ const CustomNavbar = () => {
         </BootstrapNavbar.Brand>
         <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
         <BootstrapNavbar.Collapse id="basic-navbar-nav">
-          <Nav>
-            <Nav.Link as={Link} to="/">Home</Nav.Link>
-            <Nav.Link as={Link} to="/about">Sobre nós</Nav.Link>
-            <Nav.Link as={Link} to="/services">Serviços</Nav.Link>
-            <Nav.Link as={Link} to="/products">Produtos</Nav.Link>
-            <Nav.Link as={Link} to="/contact">Entre em contato</Nav.Link>
-
+          <Nav className="navbar">
+            <Nav.Link as={Link} to="/" className="navbar-link">Home</Nav.Link>
+            <Nav.Link as={Link} to="/about" className="navbar-link">Sobre nós</Nav.Link>
+            <Nav.Link as={Link} to="/services" className="navbar-link">Serviços</Nav.Link>
+            <Nav.Link as={Link} to="/products" className="navbar-link">Produtos</Nav.Link>
+            <Nav.Link as={Link} to="/contact" className="navbar-link">Entre em contato</Nav.Link>
           </Nav>
           <Form inline className="ml-auto">
             <div className="search-form-container">

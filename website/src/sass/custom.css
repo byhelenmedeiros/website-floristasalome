@@ -12031,4 +12031,13 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.nav-link {
+  color: #f0f8ff;
+  padding: 0 50px;
+}
+
+.btn-secondary {
+  padding: 10px 20px;
+  border-radius: 30px;
 }/*# sourceMappingURL=custom.css.map */

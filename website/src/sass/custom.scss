@@ -2,5 +2,17 @@ $primary: #31603F;
 $secondary: #a43f64;
 
 
+
 //arquivos bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap';
+
+.nav-link {
+    color: #f0f8ff;
+    padding: 0 50px;
+
+}
+
+.btn-secondary {
+    padding: 10px 20px;
+    border-radius: 30px;
+}
