@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import './Navbar.css';
 
-
 const CustomNavbar = () => {
   const [showSearch, setShowSearch] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
@@ -47,7 +46,7 @@ const CustomNavbar = () => {
             <Nav.Link as={Link} to="/products" className="navbar-link">Produtos</Nav.Link>
             <Nav.Link as={Link} to="/contact" className="navbar-link">Entre em contato</Nav.Link>
           </Nav>
-          <Form inline className="ml-auto">
+          <Form inline="true" className="ml-auto">
             <div className="search-form-container">
               <div className={`search-form ${showSearch ? 'active' : ''}`}>
                 <FormControl
@@ -59,7 +58,11 @@ const CustomNavbar = () => {
                   onKeyPress={handleKeyPress}
                 />
               </div>
-              <FontAwesomeIcon icon={faSearch} className={`search-icon ${showSearch ? 'icon-visible' : ''}`} onClick={handleSearchClick} />
+              <FontAwesomeIcon
+                icon={faSearch}
+                className={`search-icon ${showSearch ? 'icon-visible' : ''}`}
+                onClick={handleSearchClick}
+              />
             </div>
           </Form>
         </BootstrapNavbar.Collapse>

@@ -1,0 +1,28 @@
+   .btn-container
+
+   .h1{
+        margin: 0 30px;
+        text-align: center;
+
+    }
+
+  .formulario {
+    background-color: #fcfcfc;
+    padding: 20px;
+    border: solid 2px #d4d4d4;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  
+  .formulario h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+  }
+  
