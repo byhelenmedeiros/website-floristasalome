@@ -26,6 +26,7 @@ $font-family: 'Nunito', sans-serif;
 
 .card-img-top{
     width: 60%;
+    margin-left: -20px;
 }
 
 .card__body {
@@ -35,8 +36,8 @@ $font-family: 'Nunito', sans-serif;
 .card {
     border-radius: 30px;
     border: none;
-    width: 180px;
-    height: 115px;
+    width: 350px;
+    height: 140px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
