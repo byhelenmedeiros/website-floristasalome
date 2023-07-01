@@ -1,11 +1,13 @@
 import React from 'react';
-import productsData from './productsData'; // Importa os dados
+import produtos from './Produtos.json';
+
 
 const Products = () => {
   return (
     <div>
       <h2>Produtos</h2>
-      {productsData.produtos.map((produto) => (
+      
+      {produtos.produtos.map((produto) => (
         <div key={produto.id}>
           <h3>{produto.nome}</h3>
           <p>{produto.descricao}</p>
