@@ -24,8 +24,7 @@ $font-family: 'Nunito', sans-serif;
     font-weight: bold;
 }
 
-.card-img-top{
-    width: 60%;
+.card-img-top {
     margin-left: -20px;
 }
 
@@ -34,21 +33,14 @@ $font-family: 'Nunito', sans-serif;
 }
 
 .card {
-    border-radius: 30px;
     border: none;
-    width: 350px;
-    height: 140px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    border-radius: 60px;
 }
 
-.card__title {
-    font-size: 1.2rem;
-    color: #183721;
-    margin-top: -15px;
+h6, .h6 {
+    font-size: 14px; 
 }
 
-.card__subtitle{
-    font-size: 1rem;
-    color: #125726;
+h5, .h5 {
+    font-size: 16px;
 }

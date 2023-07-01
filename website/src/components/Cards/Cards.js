@@ -7,13 +7,21 @@ import './Cards.css';
 const FlowerCards = () => {
   return (
     <div className="card-container">
-      <Card className="card">
+      <Card className="card flex-md-row flex-column">
         <div className="card__content">
           <Card.Img variant="top" src={flower1} className="card__image" />
           <Card.Body className="card__body">
             <Card.Title className="card__title">Arranjos</Card.Title>
-            <Card.Subtitle className="card__subtitle">Subtítulo do Card</Card.Subtitle>
-
+            <Card.Subtitle className="card__subtitle">Todas as ocasiões</Card.Subtitle>
+          </Card.Body>
+        </div>
+      </Card>
+      <Card className="card">
+        <div className="card__content">
+          <Card.Img variant="top" src={flower3} className="card__image" />
+          <Card.Body className="card__body">
+            <Card.Title className="card__title">Vasos</Card.Title>
+            <Card.Subtitle className=" card__subtitle">Subtítulo do Card</Card.Subtitle>
           </Card.Body>
         </div>
       </Card>
