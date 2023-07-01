@@ -12,7 +12,7 @@ const FlowerCards = () => {
           <Card.Img variant="top" src={flower1} className="card__image" />
           <Card.Body className="card__body">
             <Card.Title className="card__title">Arranjos</Card.Title>
-            <Card.Subtitle className="card__title card__subtitle">Subtítulo do Card</Card.Subtitle>
+            <Card.Subtitle className="card__subtitle">Subtítulo do Card</Card.Subtitle>
 
           </Card.Body>
         </div>
@@ -22,7 +22,7 @@ const FlowerCards = () => {
           <Card.Img variant="top" src={flower3} className="card__image" />
           <Card.Body className="card__body">
             <Card.Title className="card__title">Vasos</Card.Title>
-            <Card.Subtitle className="card__title card__subtitle">Subtítulo do Card</Card.Subtitle>
+            <Card.Subtitle className=" card__subtitle">Subtítulo do Card</Card.Subtitle>
           </Card.Body>
         </div>
       </Card>
