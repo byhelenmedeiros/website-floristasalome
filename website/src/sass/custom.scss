@@ -24,3 +24,23 @@ $font-family: 'Nunito', sans-serif;
     font-weight: bold;
 }
 
+.card-img-top{
+    width: 60%;
+}
+
+.card__body {
+    padding: 10px;
+}
+
+.card {
+    border-radius: 50px;
+    border: none;
+    width: 400px;
+    height: 180px;
+    margin-top: 50px;
+}
+
+.card__title {
+    font-size: 1.2rem;
+    color: #183721;
+}
