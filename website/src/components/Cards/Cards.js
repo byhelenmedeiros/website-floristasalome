@@ -20,8 +20,8 @@ const FlowerCards = () => {
         <div className="card__content">
           <Card.Img variant="top" src={flower3} className="card__image" />
           <Card.Body className="card__body">
-            <Card.Title className="card__title">Vasos</Card.Title>
-            <Card.Subtitle className=" card__subtitle">Subtítulo do Card</Card.Subtitle>
+            <Card.Title className="card__title">Plantas</Card.Title>
+            <Card.Subtitle className=" card__subtitle">Promoções exclusivas</Card.Subtitle>
           </Card.Body>
         </div>
       </Card>
@@ -30,7 +30,7 @@ const FlowerCards = () => {
           <Card.Img variant="top" src={flower3} className="card__image" />
           <Card.Body className="card__body">
             <Card.Title className="card__title">Vasos</Card.Title>
-            <Card.Subtitle className=" card__subtitle">Subtítulo do Card</Card.Subtitle>
+            <Card.Subtitle className=" card__subtitle">Tudo por €9.90</Card.Subtitle>
           </Card.Body>
         </div>
       </Card>

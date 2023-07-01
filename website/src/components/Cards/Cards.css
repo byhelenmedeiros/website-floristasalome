@@ -3,6 +3,8 @@
     display: flex;
     justify-content: center;
     background-color: #ececec;
+
+
 }
 
 .carousel-indicators [data-bs-target] {
@@ -12,6 +14,7 @@
 
 .card {
     background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: visible;
     margin: 0 30px;
     width: 250px;
