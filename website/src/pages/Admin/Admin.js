@@ -44,7 +44,7 @@ const Formulario = () => {
     try {
       const imageUrl = await saveImage(imageFile);
       formik.setFieldValue('imagem', imageUrl);
-      console.log("enviou imagem");
+      console.log("Imagem enviada:", imageUrl);
     } catch (error) {
       console.error('Erro ao fazer upload da imagem:', error);
     }
